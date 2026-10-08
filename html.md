@@ -9,8 +9,8 @@
     - 태그(tag)들의 조합으로 구성
         - 태그는 <태그이름> 형태로 작성
 
-- <!DOCTYPE html> : 문서가 html임을 선언 (첫번째 줄에 작성하여 시작함)
-- <html></html> : 시작과 끝 태그 사이에 웹 페이지의 내용을 작성
-- <head></head>: 제목을 나타내고 화면에 직접 보이지는 않는 영역
-- <title></title>: 브라우저 탭에 표시되는 제목
-- <body></body>: 본문, 화면에 실제로 보이는 영역
+- &lt;!DOCTYPE html&gt; : 문서가 html임을 선언 (첫번째 줄에 작성하여 시작함)
+- &lt;html&gt;&lt;/html&gt; : 시작과 끝 태그 사이에 웹 페이지의 내용을 작성
+- &lt;head&gt;&lt;/head&gt; : 제목을 나타내고 화면에 직접 보이지는 않는 영역
+- &lt;title&gt;&lt;/title&gt; : 브라우저 탭에 표시되는 제목
+- &lt;body&gt;&lt;/body&gt; : 본문, 화면에 실제로 보이는 영역
