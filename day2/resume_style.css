@@ -1,0 +1,27 @@
+* {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-size:large
+}
+a {
+    font-size: large;
+    color: darkcyan;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    margin: 5px;
+    font-size: medium;
+}
+.material-symbols-outlined {
+    color: red;
+}
+img {
+    border: 1px solid gold;
+    background-color: gold;
+}
