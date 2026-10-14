@@ -1,0 +1,65 @@
+#navbar {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem;
+}
+.navbar__menu {
+    display: flex;
+    gap: 0.8rem;
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 300px) {
+    #navbar {
+        flex-direction: column;
+    }
+    .navbar__logo {
+        align-self: start;
+    }
+}
+.navbar__menu li:hover {
+    background-color: white;
+    border-radius: 0.5rem;
+}
+#introduce {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 0.5rem;
+}
+.basic_table {
+    flex: 0.9;
+}
+.fa-solid.fa-briefcase {
+    font-size: 20px;
+}
+.material-symbols-outlined {
+    color: red;
+}
+.career_table {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.fa-solid.fa-paper-plane {
+    font-size: 20px;
+}
+* {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-size:large
+}
+
+img {
+    border: 1px solid gold;
+    background-color: gold;
+    border-radius: 0.8rem;
+}
